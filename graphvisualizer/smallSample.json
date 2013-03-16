@@ -1,0 +1,48 @@
+{"graph": {
+    "mode": "NORMAL",
+    "vertices": [
+        {
+            "type": "device",
+            "_id": 20
+        },
+        {
+            "type": "user",
+            "_id": 24
+        },
+        {
+            "deviceGuid": "20",
+            "pageUrl": "http:\/\/www.nytimes.com\/",
+            "pageOpenTime": 1362630001668,
+            "windowId": 1,
+            "tabId": 2,
+            "type": "pageView",
+            "userGuid": "24",
+            "_id": 52
+        },
+        {
+            "domain": "nytimes.com",
+            "type": "domain",
+            "_id": 56
+        }
+    ],
+    "edges": [
+        {
+            "_label": "owns",
+            "_id": 123,
+            "_outV": 24,
+            "_inV": 20
+        },
+        {
+            "_label": "under",
+            "_id": 25593,
+            "_outV": 52,
+            "_inV": 56
+        },
+        {
+            "_label": "viewed",
+            "_id": 161,
+            "_outV": 20,
+            "_inV": 52
+        }
+    ]
+}}

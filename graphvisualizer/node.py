@@ -5,6 +5,9 @@ class Node():
 
         self.children = {}
 
+    def __repr__(self):
+        return self.vertex.__repr__()
+
     def setVertex(self, vertex):
         self.vertex = vertex
 
@@ -20,4 +23,4 @@ class Node():
 
     def getAllChildren(self):
         for child in self.children:
-            yield child
+            yield self.children[child]

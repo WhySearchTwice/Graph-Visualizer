@@ -1,4 +1,4 @@
-from graphvisualizer.node import Node
+from graphvisualizer import Node
 
 class Device(Node):
     def getType(self):

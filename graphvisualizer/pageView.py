@@ -1,4 +1,4 @@
-from graphvisualizer.node import Node
+from graphvisualizer import Node
 
 class PageView(Node):
     def getType(self):
